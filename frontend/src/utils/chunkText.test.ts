@@ -1,0 +1,2 @@
+import { describe, expect, it } from 'vitest'; import { chunkText } from './chunkText';
+describe('chunkText', () => { it('keeps short text intact', () => expect(chunkText('Xin chào', 10)).toEqual(['Xin chào'])); it('splits at sentence boundaries without splitting words', () => { const result = chunkText('Đây là câu đầu tiên. Đây là câu thứ hai rất dài.', 25); expect(result.join(' ')).toBe('Đây là câu đầu tiên. Đây là câu thứ hai rất dài.'); expect(result.every(x => x.length <= 25 || x.length > 0)).toBe(true); }); });

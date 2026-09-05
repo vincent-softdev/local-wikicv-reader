@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/hooks/usespeechsynthesis.ts","./src/services/chapterapi.ts","./src/utils/chunktext.test.ts","./src/utils/chunktext.ts"],"version":"5.9.3"}
