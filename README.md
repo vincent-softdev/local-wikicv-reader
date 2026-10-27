@@ -21,4 +21,4 @@ Useful commands: `npm run test`, `npm run typecheck`, and `npm run build`.
 
 Only `https://wikicv.org` and `https://www.wikicv.org` chapter URLs are supported. The local backend fetches content only after the user supplies a WikiCV URL; the frontend never fetches WikiCV directly. The tool is intended for personal use with content the user is authorised to access.
 
-Text to speech is provided by the browser/system Web Speech API. Only voices whose language is `vi-*` appear in the voice selector. Reading progress, settings, and recent chapters are stored in the browser's localStorage; no database or account is used.
+Text to speech is provided by the browser/system Web Speech API. Vietnamese voices are shown first, followed by other voices reported by the operating system; some macOS voices may appear with a blank or non-Vietnamese language tag. Reading progress, settings, and recent chapters are stored in the browser's localStorage; no database or account is used.

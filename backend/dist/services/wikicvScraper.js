@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import { ChapterParseError } from '../types/chapter.js';
-import { validateWikiCvUrl } from '../utils/validateWikiCvUrl.js';
+import { validateWikiCvNovelUrl, validateWikiCvUrl } from '../utils/validateWikiCvUrl.js';
 const USER_AGENT = 'Local-WikiCV-Reader/1.0 (personal local reader)';
 const CONTENT_SELECTORS = ['#bookContentBody', '.reading-content', '.chapter-content', '.chapter-c', '.content-chapter', '[class*="chapter-content"]', '[class*="reading-content"]'];
 const NOISE = 'script,style,noscript,iframe,form,button,nav,header,footer,aside,.ads,.ad,.advertisement,.comment,.comments,.recommend,.related,.social,.breadcrumb,.share';
@@ -31,17 +31,88 @@ function extractParagraphs($) {
 }
 function findChapterLink($, direction, source) {
     const labels = direction === 'prev' ? /trước|previous|prev/i : /sau|next/i;
-    const candidates = $('a').toArray().map((el) => ({ text: clean($(el).text()), href: $(el).attr('href') })).filter((x) => x.href && labels.test(x.text));
-    const href = candidates[0]?.href;
-    if (!href)
-        return undefined;
-    try {
-        const url = new URL(href, source);
-        return url.hostname.endsWith('wikicv.org') ? url.toString() : undefined;
+    const selector = direction === 'prev' ? '[rel="prev"], .prev, .previous, .chapter-prev, [class*="prev"]' : '[rel="next"], .next, .next-chapter, .chapter-next, [class*="next"]';
+    const candidates = [...$(selector).toArray(), ...$('a[href], [data-href], [data-url]').toArray()].map((el) => ({
+        text: clean($(el).text()) || clean($(el).attr('title') ?? '') || clean($(el).attr('aria-label') ?? ''),
+        href: $(el).attr('href') ?? $(el).attr('data-href') ?? $(el).attr('data-url'),
+        preferred: $(el).is(selector),
+    })).filter((x) => x.href && (x.preferred || labels.test(x.text)));
+    for (const candidate of candidates) {
+        try {
+            const url = new URL(candidate.href, source);
+            if (url.hostname.endsWith('wikicv.org') && /\/truyen\/[^/]+\/chuong(?:-|\/)/i.test(url.pathname) && url.toString() !== source.toString())
+                return url.toString();
+        }
+        catch { /* Try the next candidate. */ }
     }
-    catch {
-        return undefined;
+    return undefined;
+}
+function findNovelLink($, source) {
+    const indexHref = $('.btn-index').first().attr('href');
+    if (indexHref) {
+        try {
+            const indexUrl = new URL(indexHref, source);
+            if (indexUrl.origin === source.origin && /^\/truyen\/[^/]+\/?$/i.test(indexUrl.pathname))
+                return indexUrl.toString();
+        }
+        catch { /* Continue with the generic link scan. */ }
     }
+    const candidates = $('a[href]').toArray().map(element => ({ text: clean($(element).text()) || clean($(element).attr('title') ?? '') || clean($(element).attr('aria-label') ?? ''), href: $(element).attr('href') }));
+    for (const candidate of candidates) {
+        if (!candidate.href || (!/mục lục|danh sách chương|trang truyện|book|novel|truyện/i.test(candidate.text) && /\/chuong(?:-|\/)/i.test(candidate.href)))
+            continue;
+        try {
+            const url = new URL(candidate.href, source);
+            if (url.origin === source.origin && /^\/truyen\/[^/]+\/?$/i.test(url.pathname))
+                return url.toString();
+        }
+        catch { /* Ignore malformed links. */ }
+    }
+    return undefined;
+}
+function findChapterLinks($, source, currentTitle = '') {
+    const links = [];
+    const seen = new Set();
+    const chapterPage = /\/chuong(?:-|\/)/i.test(source.pathname);
+    const novelSlug = source.pathname.split('/').filter(Boolean)[1];
+    const novelPrefix = chapterPage ? `${source.origin}/truyen/${novelSlug}/` : '';
+    const addLink = (href, rawTitle) => {
+        if (!href)
+            return;
+        try {
+            const url = new URL(href, source);
+            if (url.origin !== source.origin || (novelPrefix && !url.pathname.startsWith(novelPrefix)) || !/\/truyen\/[^/]+\/chuong(?:-|\/)/i.test(url.pathname))
+                return;
+            const absoluteUrl = url.toString();
+            if (seen.has(absoluteUrl))
+                return;
+            const title = clean(rawTitle ?? '') || clean(decodeURIComponent(url.pathname.split('/').pop() ?? '').replace(/^chuong[-_]?/i, 'Chương '));
+            if (/chương (trước|sau)|previous|next|prev/i.test(title))
+                return;
+            seen.add(absoluteUrl);
+            links.push({ title, url: absoluteUrl });
+        }
+        catch { /* Ignore malformed external links. */ }
+    };
+    $('.chapter-name a[href]').each((_, element) => addLink($(element).attr('href'), clean($(element).text())));
+    $('a[href], option[value], [data-href], [data-url]').each((_, element) => {
+        const href = $(element).attr('href') ?? $(element).attr('value') ?? $(element).attr('data-href') ?? $(element).attr('data-url');
+        const title = clean($(element).text()) || clean($(element).attr('title') ?? '') || clean($(element).attr('aria-label') ?? '');
+        addLink(href, title);
+    });
+    const urlPattern = /(?:https?:\/\/wikicv\.org)?\/truyen\/[^"'\\\s]+\/chuong(?:-|\/)[^"'\\\s<]+/gi;
+    for (const match of $.html().matchAll(urlPattern))
+        addLink(match[0]);
+    const currentUrl = source.toString();
+    if (currentTitle && !seen.has(currentUrl))
+        links.push({ title: currentTitle, url: currentUrl });
+    return links;
+}
+export function parseWikiCvNovel(html, sourceUrl) {
+    const source = validateWikiCvNovelUrl(sourceUrl);
+    const $ = cheerio.load(html);
+    const title = firstText($, ['[class*="novel-title"]', '.book-title', '.truyen-title', '[class*="book-name"]', 'h1', 'title']) || 'WikiCV';
+    return { sourceUrl: source.toString(), title, chapters: findChapterLinks($, source) };
 }
 export function parseWikiCvChapter(html, sourceUrl) {
     const source = validateWikiCvUrl(sourceUrl);
@@ -52,7 +123,8 @@ export function parseWikiCvChapter(html, sourceUrl) {
     const paragraphs = extractParagraphs($);
     if (!paragraphs.length)
         throw new ChapterParseError('The page loaded but the chapter content could not be identified.');
-    return { sourceUrl: source.toString(), novelTitle: novelTitle.replace(chapterTitle, '').trim() || novelTitle, chapterTitle, paragraphs, previousChapterUrl: findChapterLink($, 'prev', source), nextChapterUrl: findChapterLink($, 'next', source) };
+    const cleanNovelTitle = novelTitle.replace(chapterTitle, '').trim() || novelTitle;
+    return { sourceUrl: source.toString(), novelTitle: cleanNovelTitle, chapterTitle, paragraphs, previousChapterUrl: findChapterLink($, 'prev', source), nextChapterUrl: findChapterLink($, 'next', source), novelUrl: findNovelLink($, source), chapters: findChapterLinks($, source, chapterTitle) };
 }
 export async function fetchWikiCvChapter(sourceUrl, redirectDepth = 0) {
     if (redirectDepth > 3)
@@ -81,6 +153,13 @@ export async function fetchWikiCvChapter(sourceUrl, redirectDepth = 0) {
     finally {
         clearTimeout(timer);
     }
+}
+export async function fetchWikiCvNovel(sourceUrl) {
+    const url = validateWikiCvNovelUrl(sourceUrl);
+    const response = await fetch(url, { headers: { 'User-Agent': USER_AGENT, Accept: 'text/html,application/xhtml+xml' } });
+    if (!response.ok)
+        throw new Error(`WikiCV responded with ${response.status}.`);
+    return parseWikiCvNovel(await response.text(), url.toString());
 }
 function isSameWikiCvHost(value) { try {
     const url = new URL(value);

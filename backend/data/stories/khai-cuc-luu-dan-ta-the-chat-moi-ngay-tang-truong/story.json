@@ -1,0 +1,898 @@
+{
+  "slug": "khai-cuc-luu-dan-ta-the-chat-moi-ngay-tang-truong",
+  "title": "Khai cục lưu dân, ta thể chất mỗi ngày tăng trưởng",
+  "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta-at7%7E%7EFS4CEs55%7Ejb",
+  "createdAt": "2026-10-26T13:16:15.581Z",
+  "updatedAt": "2026-10-27T01:34:49.328Z",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chương 1 lưu dân",
+      "file": "chapter-1.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-1-luu-dan-at8ThcQsRAPg7fTz",
+      "createdAt": "2026-10-26T13:16:15.582Z",
+      "updatedAt": "2026-10-26T13:16:15.582Z"
+    },
+    {
+      "number": 2,
+      "title": "Chương 2 giết người",
+      "file": "chapter-2.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-2-giet-nguoi-at8ThcQsRAPg7fT0",
+      "createdAt": "2026-10-26T16:11:20.627Z",
+      "updatedAt": "2026-10-26T16:11:20.627Z"
+    },
+    {
+      "number": 3,
+      "title": "Chương 3 nhập tịch",
+      "file": "chapter-3.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-3-nhap-tich-at8ThcQsRAPg7fT1",
+      "createdAt": "2026-10-26T16:23:31.126Z",
+      "updatedAt": "2026-10-26T16:23:31.126Z"
+    },
+    {
+      "number": 4,
+      "title": "Chương 4 uy hiếp",
+      "file": "chapter-4.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-4-uy-hiep-at8ThcQsRAPg7fT2",
+      "createdAt": "2026-10-26T20:10:16.885Z",
+      "updatedAt": "2026-10-26T20:10:16.885Z"
+    },
+    {
+      "number": 5,
+      "title": "Chương 5 lại giết người, ngộ yêu ma",
+      "file": "chapter-5.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-5-lai-giet-nguoi-ngo-yeu-ma-at8ThcQsRAPg7fT3",
+      "createdAt": "2026-10-26T20:16:29.535Z",
+      "updatedAt": "2026-10-26T20:16:29.535Z"
+    },
+    {
+      "number": 6,
+      "title": "Chương 6 Trấn Ma Tư, thể chất phá trăm",
+      "file": "chapter-6.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-6-tran-ma-tu-the-chat-pha-tram-at8ThcQsRAPg7fT4",
+      "createdAt": "2026-10-26T20:18:42.821Z",
+      "updatedAt": "2026-10-26T20:18:42.821Z"
+    },
+    {
+      "number": 7,
+      "title": "Chương 7 đi săn, sơn tặc",
+      "file": "chapter-7.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-7-di-san-son-tac-at8ThcQsRAPg7fT5",
+      "createdAt": "2026-10-26T20:25:47.497Z",
+      "updatedAt": "2026-10-26T20:25:47.497Z"
+    },
+    {
+      "number": 8,
+      "title": "Chương 8 thiên phong võ quán, huyện nha chiêu sai dịch",
+      "file": "chapter-8.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-8-thien-phong-vo-quan-huyen-nha-c-at8ThcQsRAPg7fT6",
+      "createdAt": "2026-10-26T20:34:51.225Z",
+      "updatedAt": "2026-10-26T20:34:51.225Z"
+    },
+    {
+      "number": 9,
+      "title": "Chương 9 bái sư",
+      "file": "chapter-9.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-9-bai-su-at8ThcQsRAPg7fT7",
+      "createdAt": "2026-10-26T20:41:29.173Z",
+      "updatedAt": "2026-10-26T20:41:29.173Z"
+    },
+    {
+      "number": 10,
+      "title": "Chương 10 đột phá, cửu phẩm võ giả!",
+      "file": "chapter-10.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-10-dot-pha-cuu-pham-vo-gia-at8ThcQsRAPg7fT8",
+      "createdAt": "2026-10-26T20:49:22.773Z",
+      "updatedAt": "2026-10-26T20:49:22.773Z"
+    },
+    {
+      "number": 11,
+      "title": "Chương 11 truy nã phạm hoàng lang lục khai",
+      "file": "chapter-11.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-11-truy-na-pham-hoang-lang-luc-kh-at8ThcQsRAPg7fT9",
+      "createdAt": "2026-10-26T21:03:07.186Z",
+      "updatedAt": "2026-10-26T21:03:07.186Z"
+    },
+    {
+      "number": 12,
+      "title": "Chương 12 ra tay, tróc nã lục khai",
+      "file": "chapter-12.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-12-ra-tay-troc-na-luc-khai-at8ThcQsRAPg7fT%7E",
+      "createdAt": "2026-10-26T21:10:17.899Z",
+      "updatedAt": "2026-10-26T21:10:17.899Z"
+    },
+    {
+      "number": 13,
+      "title": "Chương 13 cao tầng nghị sự",
+      "file": "chapter-13.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-13-cao-tang-nghi-su-at8ThcQsRAPg7fT_",
+      "createdAt": "2026-10-26T21:18:10.163Z",
+      "updatedAt": "2026-10-26T21:18:10.163Z"
+    },
+    {
+      "number": 14,
+      "title": "Chương 14 huyện nha, Võ Vệ Tư",
+      "file": "chapter-14.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-14-huyen-nha-vo-ve-tu-at8ThcQsRAPg7fUA",
+      "createdAt": "2026-10-26T21:24:34.247Z",
+      "updatedAt": "2026-10-26T21:24:34.247Z"
+    },
+    {
+      "number": 15,
+      "title": "Chương 15 chung thành bộ khoái, sài giúp người tới",
+      "file": "chapter-15.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-15-chung-thanh-bo-khoai-sai-giup--at8ThcQsRAPg7fUB",
+      "createdAt": "2026-10-26T21:35:29.327Z",
+      "updatedAt": "2026-10-26T21:35:29.327Z"
+    },
+    {
+      "number": 16,
+      "title": "Chương 16 bức lui sài giúp",
+      "file": "chapter-16.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-16-buc-lui-sai-giup-at8ThcQsRAPg7fUC",
+      "createdAt": "2026-10-26T21:43:40.634Z",
+      "updatedAt": "2026-10-26T21:43:40.634Z"
+    },
+    {
+      "number": 17,
+      "title": "Chương 17 kinh sợ",
+      "file": "chapter-17.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-17-kinh-so-at8ThcQsRAPg7fUD",
+      "createdAt": "2026-10-26T21:50:13.980Z",
+      "updatedAt": "2026-10-26T21:50:13.980Z"
+    },
+    {
+      "number": 18,
+      "title": "Chương 18 yêu ma cấp bậc, bộ khoái tiểu đội",
+      "file": "chapter-18.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-18-yeu-ma-cap-bac-bo-khoai-tieu-d-at8ThcQsRAPg7fUE",
+      "createdAt": "2026-10-26T21:57:37.214Z",
+      "updatedAt": "2026-10-26T21:57:37.214Z"
+    },
+    {
+      "number": 19,
+      "title": "Chương 19 tuần tra",
+      "file": "chapter-19.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-19-tuan-tra-at8ThcQsRAPg7fUF",
+      "createdAt": "2026-10-26T22:03:26.246Z",
+      "updatedAt": "2026-10-26T22:03:26.246Z"
+    },
+    {
+      "number": 20,
+      "title": "Chương 20 bang phái nội đấu",
+      "file": "chapter-20.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-20-bang-phai-noi-dau-at8ThcQsRAPg7fUG",
+      "createdAt": "2026-10-26T22:07:00.127Z",
+      "updatedAt": "2026-10-26T22:07:00.127Z"
+    },
+    {
+      "number": 21,
+      "title": "Chương 21 giết người, phát tài",
+      "file": "chapter-21.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-21-giet-nguoi-phat-tai-at8ThcQsRAPg7fUH",
+      "createdAt": "2026-10-26T22:10:09.084Z",
+      "updatedAt": "2026-10-26T22:10:09.084Z"
+    },
+    {
+      "number": 22,
+      "title": "Chương 22 10 ngày sau",
+      "file": "chapter-22.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-22-10-ngay-sau-at8ThcQsRAPg7fUI",
+      "createdAt": "2026-10-26T22:12:59.383Z",
+      "updatedAt": "2026-10-26T22:12:59.383Z"
+    },
+    {
+      "number": 23,
+      "title": "Chương 23 vương tiểu quyên",
+      "file": "chapter-23.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-23-vuong-tieu-quyen-at8ThcQsRAPg7fUJ",
+      "createdAt": "2026-10-26T22:14:22.121Z",
+      "updatedAt": "2026-10-26T22:14:22.121Z"
+    },
+    {
+      "number": 24,
+      "title": "Chương 24 hồng lang lục thiên",
+      "file": "chapter-24.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-24-hong-lang-luc-thien-at8ThcQsRAPg7fUK",
+      "createdAt": "2026-10-26T22:17:05.644Z",
+      "updatedAt": "2026-10-26T22:17:05.644Z"
+    },
+    {
+      "number": 25,
+      "title": "Chương 25 chiến hồng lang lục thiên",
+      "file": "chapter-25.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-25-chien-hong-lang-luc-thien-at8ThcQsRAPg7fUL",
+      "createdAt": "2026-10-26T22:18:57.888Z",
+      "updatedAt": "2026-10-26T22:18:57.888Z"
+    },
+    {
+      "number": 26,
+      "title": "Chương 26 rèn thể đan",
+      "file": "chapter-26.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-26-ren-the-dan-at8ThcQsRAPg7fUM",
+      "createdAt": "2026-10-26T22:19:46.113Z",
+      "updatedAt": "2026-10-26T22:19:46.113Z"
+    },
+    {
+      "number": 27,
+      "title": "Chương 27 tình nghĩa",
+      "file": "chapter-27.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-27-tinh-nghia-at8ThcQsRAPg7fUN",
+      "createdAt": "2026-10-26T22:21:55.819Z",
+      "updatedAt": "2026-10-26T22:21:55.819Z"
+    },
+    {
+      "number": 28,
+      "title": "Chương 28 sinh hoạt",
+      "file": "chapter-28.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-28-sinh-hoat-at8ThcQsRAPg7fUO",
+      "createdAt": "2026-10-26T22:23:43.138Z",
+      "updatedAt": "2026-10-26T22:23:43.138Z"
+    },
+    {
+      "number": 29,
+      "title": "Chương 29 huyết đan",
+      "file": "chapter-29.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-29-huyet-dan-at8ThcQsRAPg7fUP",
+      "createdAt": "2026-10-26T22:25:15.822Z",
+      "updatedAt": "2026-10-26T22:25:15.822Z"
+    },
+    {
+      "number": 30,
+      "title": "Chương 30 chiến trương ngọc anh",
+      "file": "chapter-30.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-30-chien-truong-ngoc-anh-at8ThcQsRAPg7fUQ",
+      "createdAt": "2026-10-26T22:26:21.872Z",
+      "updatedAt": "2026-10-26T22:26:21.872Z"
+    },
+    {
+      "number": 31,
+      "title": "Chương 31 trảm điên cuồng",
+      "file": "chapter-31.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-31-tram-dien-cuong-at8ThcQsRAPg7fUR",
+      "createdAt": "2026-10-26T22:27:32.024Z",
+      "updatedAt": "2026-10-26T22:27:32.024Z"
+    },
+    {
+      "number": 32,
+      "title": "Chương 32 đại chiến đem khải",
+      "file": "chapter-32.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-32-dai-chien-dem-khai-at8ThcQsRAPg7fUS",
+      "createdAt": "2026-10-26T22:28:55.951Z",
+      "updatedAt": "2026-10-26T22:28:55.951Z"
+    },
+    {
+      "number": 33,
+      "title": "Chương 33 chuẩn bị chiến tranh",
+      "file": "chapter-33.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-33-chuan-bi-chien-tranh-at8ThcQsRAPg7fUT",
+      "createdAt": "2026-10-26T22:30:29.279Z",
+      "updatedAt": "2026-10-26T22:30:29.279Z"
+    },
+    {
+      "number": 34,
+      "title": "Chương 34 chiến đấu mở ra",
+      "file": "chapter-34.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-34-chien-dau-mo-ra-at8ThcQsRAPg7fUU",
+      "createdAt": "2026-10-26T22:30:32.640Z",
+      "updatedAt": "2026-10-26T22:30:32.640Z"
+    },
+    {
+      "number": 35,
+      "title": "Chương 35 phản bội",
+      "file": "chapter-35.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-35-phan-boi-at8ThcQsRAPg7fUV",
+      "createdAt": "2026-10-26T22:30:34.684Z",
+      "updatedAt": "2026-10-26T22:30:34.684Z"
+    },
+    {
+      "number": 36,
+      "title": "Chương 36 kịch liệt chiến đấu",
+      "file": "chapter-36.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-36-kich-liet-chien-dau-at8ThcQsRAPg7fUW",
+      "createdAt": "2026-10-26T22:31:33.513Z",
+      "updatedAt": "2026-10-26T22:31:33.513Z"
+    },
+    {
+      "number": 37,
+      "title": "Chương 37 huyết đan tái hiện, hai người điên cuồng",
+      "file": "chapter-37.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-37-huyet-dan-tai-hien-hai-nguoi-d-at8ThcQsRAPg7fUX",
+      "createdAt": "2026-10-26T22:32:25.413Z",
+      "updatedAt": "2026-10-26T22:32:25.413Z"
+    },
+    {
+      "number": 38,
+      "title": "Chương 38 huyết linh đan",
+      "file": "chapter-38.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-38-huyet-linh-dan-at8ThcQsRAPg7fUY",
+      "createdAt": "2026-10-26T22:32:27.741Z",
+      "updatedAt": "2026-10-26T22:32:27.741Z"
+    },
+    {
+      "number": 39,
+      "title": "Chương 39 đuổi sói nuốt hổ",
+      "file": "chapter-39.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-39-duoi-soi-nuot-ho-at8ThcQsRAPg7fUZ",
+      "createdAt": "2026-10-26T22:32:30.232Z",
+      "updatedAt": "2026-10-26T22:32:30.232Z"
+    },
+    {
+      "number": 40,
+      "title": "Chương 40 xuống núi",
+      "file": "chapter-40.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-40-xuong-nui-at8ThcQsRAPg7fUa",
+      "createdAt": "2026-10-26T22:32:32.092Z",
+      "updatedAt": "2026-10-26T22:32:32.092Z"
+    },
+    {
+      "number": 41,
+      "title": "Chương 41 đan điện",
+      "file": "chapter-41.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-41-dan-dien-at8ThcQsRAPg7fUb",
+      "createdAt": "2026-10-26T22:32:33.910Z",
+      "updatedAt": "2026-10-26T22:32:33.910Z"
+    },
+    {
+      "number": 42,
+      "title": "Chương 42 tuyệt vọng",
+      "file": "chapter-42.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-42-tuyet-vong-at8ThcQsRAPg7fUc",
+      "createdAt": "2026-10-26T22:32:36.660Z",
+      "updatedAt": "2026-10-26T22:32:36.660Z"
+    },
+    {
+      "number": 43,
+      "title": "Chương 43 di ngôn",
+      "file": "chapter-43.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-43-di-ngon-at8ThcQsRAPg7fUd",
+      "createdAt": "2026-10-26T22:33:21.018Z",
+      "updatedAt": "2026-10-26T22:33:21.018Z"
+    },
+    {
+      "number": 44,
+      "title": "Chương 44 công về một quỹ",
+      "file": "chapter-44.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-44-cong-ve-mot-quy-at8ThcQsRAPg7fUe",
+      "createdAt": "2026-10-26T22:34:30.657Z",
+      "updatedAt": "2026-10-26T22:34:30.657Z"
+    },
+    {
+      "number": 45,
+      "title": "Chương 45 chịu thẩm",
+      "file": "chapter-45.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-45-chiu-tham-at8ThcQsRAPg7fUf",
+      "createdAt": "2026-10-26T22:35:17.441Z",
+      "updatedAt": "2026-10-26T22:35:17.441Z"
+    },
+    {
+      "number": 46,
+      "title": "Chương 46 phân phối",
+      "file": "chapter-46.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-46-phan-phoi-at8ThcQsRAPg7fUg",
+      "createdAt": "2026-10-26T22:38:26.573Z",
+      "updatedAt": "2026-10-26T22:38:26.573Z"
+    },
+    {
+      "number": 47,
+      "title": "Chương 47 phúng viếng",
+      "file": "chapter-47.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-47-phung-vieng-at8ThcQsRAPg7fUh",
+      "createdAt": "2026-10-26T22:39:08.164Z",
+      "updatedAt": "2026-10-26T22:39:08.164Z"
+    },
+    {
+      "number": 48,
+      "title": "Chương 48 Lục Chiêu",
+      "file": "chapter-48.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-48-luc-chieu-at8ThcQsRAPg7fUi",
+      "createdAt": "2026-10-26T22:39:56.849Z",
+      "updatedAt": "2026-10-26T22:39:56.849Z"
+    },
+    {
+      "number": 49,
+      "title": "Chương 49 đột phá bát phẩm",
+      "file": "chapter-49.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-49-dot-pha-bat-pham-at8ThcQsRAPg7fUj",
+      "createdAt": "2026-10-26T22:40:49.101Z",
+      "updatedAt": "2026-10-26T22:40:49.101Z"
+    },
+    {
+      "number": 50,
+      "title": "Chương 50 giám thị",
+      "file": "chapter-50.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-50-giam-thi-at8ThcQsRAPg7fUk",
+      "createdAt": "2026-10-26T22:42:08.211Z",
+      "updatedAt": "2026-10-26T22:42:08.211Z"
+    },
+    {
+      "number": 51,
+      "title": "Chương 51 tài bảo",
+      "file": "chapter-51.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-51-tai-bao-at8ThcQsRAPg7fUl",
+      "createdAt": "2026-10-26T22:43:20.652Z",
+      "updatedAt": "2026-10-26T22:43:20.652Z"
+    },
+    {
+      "number": 52,
+      "title": "Chương 52 tân quan tiền nhiệm ba đốm lửa",
+      "file": "chapter-52.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-52-tan-quan-tien-nhiem-ba-dom-lua-at8ThcQsRAPg7fUm",
+      "createdAt": "2026-10-26T22:43:22.400Z",
+      "updatedAt": "2026-10-26T22:43:22.400Z"
+    },
+    {
+      "number": 53,
+      "title": "Chương 53 án mạng",
+      "file": "chapter-53.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-53-an-mang-at8ThcQsRAPg7fUn",
+      "createdAt": "2026-10-26T22:44:47.315Z",
+      "updatedAt": "2026-10-26T22:44:47.315Z"
+    },
+    {
+      "number": 54,
+      "title": "Chương 54 Lục Chiêu tra án",
+      "file": "chapter-54.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-54-luc-chieu-tra-an-at8ThcQsRAPg7fUo",
+      "createdAt": "2026-10-26T22:45:07.917Z",
+      "updatedAt": "2026-10-26T22:45:07.917Z"
+    },
+    {
+      "number": 55,
+      "title": "Chương 55 bạo nộ Ngô hành",
+      "file": "chapter-55.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-55-bao-no-ngo-hanh-at8ThcQsRAPg7fUp",
+      "createdAt": "2026-10-26T22:46:03.507Z",
+      "updatedAt": "2026-10-26T22:46:03.507Z"
+    },
+    {
+      "number": 56,
+      "title": "Chương 56 yêu nhân tập kích",
+      "file": "chapter-56.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-56-yeu-nhan-tap-kich-at8ThcQsRAPg7fUq",
+      "createdAt": "2026-10-26T22:47:09.956Z",
+      "updatedAt": "2026-10-26T22:47:09.956Z"
+    },
+    {
+      "number": 57,
+      "title": "Chương 57 dẫn xà xuất động",
+      "file": "chapter-57.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-57-dan-xa-xuat-dong-at8ThcQsRAPg7fUr",
+      "createdAt": "2026-10-26T22:47:35.006Z",
+      "updatedAt": "2026-10-26T22:47:35.006Z"
+    },
+    {
+      "number": 58,
+      "title": "Chương 58 vô thiên giáo",
+      "file": "chapter-58.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-58-vo-thien-giao-at8ThcQsRAPg7fUs",
+      "createdAt": "2026-10-26T22:47:45.081Z",
+      "updatedAt": "2026-10-26T22:47:45.081Z"
+    },
+    {
+      "number": 59,
+      "title": "Chương 59 thăng nhiệm bộ đầu",
+      "file": "chapter-59.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-59-thang-nhiem-bo-dau-at8ThcQsRAPg7fUt",
+      "createdAt": "2026-10-26T22:47:47.874Z",
+      "updatedAt": "2026-10-26T22:47:47.874Z"
+    },
+    {
+      "number": 60,
+      "title": "Chương 60 tiểu đội",
+      "file": "chapter-60.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-60-tieu-doi-at8ThcQsRAPg7fUu",
+      "createdAt": "2026-10-26T22:49:25.932Z",
+      "updatedAt": "2026-10-26T22:49:25.932Z"
+    },
+    {
+      "number": 61,
+      "title": "Chương 61 bảy ngày sau, quận binh chung đến",
+      "file": "chapter-61.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-61-bay-ngay-sau-quan-binh-chung-d-at8ThcQsRAPg7fUv",
+      "createdAt": "2026-10-26T22:50:34.637Z",
+      "updatedAt": "2026-10-26T22:50:34.637Z"
+    },
+    {
+      "number": 62,
+      "title": "Chương 62 Hắc Hổ Trại",
+      "file": "chapter-62.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-62-hac-ho-trai-at8ThcQsRAPg7fUw",
+      "createdAt": "2026-10-26T22:50:39.129Z",
+      "updatedAt": "2026-10-26T22:50:39.129Z"
+    },
+    {
+      "number": 63,
+      "title": "Chương 63 bàn tiệc thử",
+      "file": "chapter-63.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-63-ban-tiec-thu-at8ThcQsRAPg7fUx",
+      "createdAt": "2026-10-26T22:50:41.509Z",
+      "updatedAt": "2026-10-26T22:50:41.509Z"
+    },
+    {
+      "number": 64,
+      "title": "Chương 64 chiến lực bạo trướng",
+      "file": "chapter-64.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-64-chien-luc-bao-truong-at8ThcQsRAPg7fUy",
+      "createdAt": "2026-10-26T22:50:44.076Z",
+      "updatedAt": "2026-10-26T22:50:44.076Z"
+    },
+    {
+      "number": 65,
+      "title": "Chương 65 long nha sơn",
+      "file": "chapter-65.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-65-long-nha-son-at8ThcQsRAPg7fUz",
+      "createdAt": "2026-10-26T22:52:50.918Z",
+      "updatedAt": "2026-10-26T22:52:50.918Z"
+    },
+    {
+      "number": 66,
+      "title": "Chương 66 công sơn",
+      "file": "chapter-66.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-66-cong-son-at8ThcQsRAPg7fU0",
+      "createdAt": "2026-10-26T22:53:12.021Z",
+      "updatedAt": "2026-10-26T22:53:12.021Z"
+    },
+    {
+      "number": 67,
+      "title": "Chương 67 tách ra hai lộ",
+      "file": "chapter-67.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-67-tach-ra-hai-lo-at8ThcQsRAPg7fU1",
+      "createdAt": "2026-10-26T22:53:14.497Z",
+      "updatedAt": "2026-10-26T22:53:14.497Z"
+    },
+    {
+      "number": 68,
+      "title": "Chương 68 ám tử",
+      "file": "chapter-68.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-68-am-tu-at8ThcQsRAPg7fU2",
+      "createdAt": "2026-10-26T22:53:16.170Z",
+      "updatedAt": "2026-10-26T22:53:16.170Z"
+    },
+    {
+      "number": 69,
+      "title": "Chương 69 luyện đan điện chiến đấu kịch liệt",
+      "file": "chapter-69.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-69-luyen-dan-dien-chien-dau-kich--at8ThcQsRAPg7fU3",
+      "createdAt": "2026-10-26T22:53:18.146Z",
+      "updatedAt": "2026-10-26T22:53:18.146Z"
+    },
+    {
+      "number": 70,
+      "title": "Chương 70 chém yêu người",
+      "file": "chapter-70.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-70-chem-yeu-nguoi-at8ThcQsRAPg7fU4",
+      "createdAt": "2026-10-26T22:53:20.815Z",
+      "updatedAt": "2026-10-26T22:53:20.815Z"
+    },
+    {
+      "number": 71,
+      "title": "Chương 71 ngộ địch",
+      "file": "chapter-71.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-71-ngo-dich-at8ThcQsRAPg7fU5",
+      "createdAt": "2026-10-26T22:53:22.470Z",
+      "updatedAt": "2026-10-26T22:53:22.470Z"
+    },
+    {
+      "number": 72,
+      "title": "Chương 72 địch nhân, thất phẩm võ giả",
+      "file": "chapter-72.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-72-dich-nhan-that-pham-vo-gia-at8ThcQsRAPg7fU6",
+      "createdAt": "2026-10-26T22:53:24.709Z",
+      "updatedAt": "2026-10-26T22:53:24.709Z"
+    },
+    {
+      "number": 73,
+      "title": "Chương 73 bị thương",
+      "file": "chapter-73.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-73-bi-thuong-at8ThcQsRAPg7fU7",
+      "createdAt": "2026-10-26T23:00:10.843Z",
+      "updatedAt": "2026-10-26T23:00:10.843Z"
+    },
+    {
+      "number": 74,
+      "title": "Chương 74 thoát đi đối chiến",
+      "file": "chapter-74.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-74-thoat-di-doi-chien-at8ThcQsRAPg7fU8",
+      "createdAt": "2026-10-26T23:06:12.731Z",
+      "updatedAt": "2026-10-26T23:06:12.731Z"
+    },
+    {
+      "number": 75,
+      "title": "Chương 75 phản sát",
+      "file": "chapter-75.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-75-phan-sat-at8ThcQsRAPg7fU9",
+      "createdAt": "2026-10-26T23:09:41.646Z",
+      "updatedAt": "2026-10-26T23:09:41.646Z"
+    },
+    {
+      "number": 76,
+      "title": "Chương 76 giết địch",
+      "file": "chapter-76.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-76-giet-dich-at8ThcQsRAPg7fU%7E",
+      "createdAt": "2026-10-26T23:44:53.328Z",
+      "updatedAt": "2026-10-26T23:44:53.328Z"
+    },
+    {
+      "number": 77,
+      "title": "Chương 77 hoạch bảo",
+      "file": "chapter-77.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-77-hoach-bao-at8ThcQsRAPg7fU_",
+      "createdAt": "2026-10-26T23:49:29.629Z",
+      "updatedAt": "2026-10-26T23:49:29.629Z"
+    },
+    {
+      "number": 78,
+      "title": "Chương 78 chính diện chiến trường",
+      "file": "chapter-78.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-78-chinh-dien-chien-truong-at8ThcQsRAPg7fVA",
+      "createdAt": "2026-10-26T23:53:57.949Z",
+      "updatedAt": "2026-10-26T23:53:57.949Z"
+    },
+    {
+      "number": 79,
+      "title": "Chương 79 thế cục chuyển biến",
+      "file": "chapter-79.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-79-the-cuc-chuyen-bien-at8ThcQsRAPg7fVB",
+      "createdAt": "2026-10-27T00:00:32.716Z",
+      "updatedAt": "2026-10-27T00:00:32.716Z"
+    },
+    {
+      "number": 80,
+      "title": "Chương 80 huyết khôi đan ．． đan thành",
+      "file": "chapter-80.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-80-huyet-khoi-dan-dan-thanh-at8ThcQsRAPg7fVC",
+      "createdAt": "2026-10-27T00:10:44.088Z",
+      "updatedAt": "2026-10-27T00:10:44.088Z"
+    },
+    {
+      "number": 81,
+      "title": "Chương 81 chung chiến",
+      "file": "chapter-81.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-81-chung-chien-at8ThcQsRAPg7fVD",
+      "createdAt": "2026-10-27T00:14:06.106Z",
+      "updatedAt": "2026-10-27T00:14:06.106Z"
+    },
+    {
+      "number": 82,
+      "title": "Chương 82 rời đi",
+      "file": "chapter-82.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-82-roi-di-at8ThcQsRAPg7fVE",
+      "createdAt": "2026-10-27T00:15:47.357Z",
+      "updatedAt": "2026-10-27T00:15:47.357Z"
+    },
+    {
+      "number": 83,
+      "title": "Chương 83 sơn môn chiến đấu kịch liệt",
+      "file": "chapter-83.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-83-son-mon-chien-dau-kich-liet-at8ThcQsRAPg7fVF",
+      "createdAt": "2026-10-27T00:22:04.882Z",
+      "updatedAt": "2026-10-27T00:22:04.882Z"
+    },
+    {
+      "number": 84,
+      "title": "Chương 84 huyết khôi",
+      "file": "chapter-84.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-84-huyet-khoi-at8ThcQsRAPg7fVG",
+      "createdAt": "2026-10-27T00:28:29.658Z",
+      "updatedAt": "2026-10-27T00:28:29.658Z"
+    },
+    {
+      "number": 85,
+      "title": "Chương 85 Trấn Ma Tư hiện",
+      "file": "chapter-85.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-85-tran-ma-tu-hien-at8ThcQsRAPg7fVH",
+      "createdAt": "2026-10-27T00:35:18.926Z",
+      "updatedAt": "2026-10-27T00:35:18.926Z"
+    },
+    {
+      "number": 86,
+      "title": "Chương 86 chiến đấu kết thúc",
+      "file": "chapter-86.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-86-chien-dau-ket-thuc-at8ThcQsRAPg7fVI",
+      "createdAt": "2026-10-27T00:41:02.958Z",
+      "updatedAt": "2026-10-27T00:41:02.958Z"
+    },
+    {
+      "number": 87,
+      "title": "Chương 87 về thành",
+      "file": "chapter-87.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-87-ve-thanh-at8ThcQsRAPg7fVJ",
+      "createdAt": "2026-10-27T00:48:34.561Z",
+      "updatedAt": "2026-10-27T00:48:34.561Z"
+    },
+    {
+      "number": 88,
+      "title": "Chương 88 Lục Chiêu rời đi",
+      "file": "chapter-88.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-88-luc-chieu-roi-di-at8ThcQsRAPg7fVK",
+      "createdAt": "2026-10-27T00:54:25.040Z",
+      "updatedAt": "2026-10-27T00:54:25.040Z"
+    },
+    {
+      "number": 89,
+      "title": "Chương 89 mời? Cự tuyệt",
+      "file": "chapter-89.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-89-moi-cu-tuyet-at8ThcQsRAPg7fVL",
+      "createdAt": "2026-10-27T01:02:26.613Z",
+      "updatedAt": "2026-10-27T01:02:26.613Z"
+    },
+    {
+      "number": 90,
+      "title": "Chương 90 đột phá thất phẩm",
+      "file": "chapter-90.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-90-dot-pha-that-pham-at8ThcQsRAPg7fVM",
+      "createdAt": "2026-10-27T01:06:06.558Z",
+      "updatedAt": "2026-10-27T01:06:06.558Z"
+    },
+    {
+      "number": 91,
+      "title": "Chương 91 Quảng Lăng quận thành",
+      "file": "chapter-91.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-91-quang-lang-quan-thanh-at8ThcQsRAPg7fVN",
+      "createdAt": "2026-10-27T01:11:43.659Z",
+      "updatedAt": "2026-10-27T01:11:43.659Z"
+    },
+    {
+      "number": 92,
+      "title": "Chương 92 Tạ gia",
+      "file": "chapter-92.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-92-ta-gia-at8ThcQsRAPg7fVO",
+      "createdAt": "2026-10-27T01:16:23.607Z",
+      "updatedAt": "2026-10-27T01:16:23.607Z"
+    },
+    {
+      "number": 93,
+      "title": "Chương 93 hỗn loạn",
+      "file": "chapter-93.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-93-hon-loan-at8ThcQsRAPg7fVP",
+      "createdAt": "2026-10-27T01:16:56.374Z",
+      "updatedAt": "2026-10-27T01:16:56.374Z"
+    },
+    {
+      "number": 94,
+      "title": "Chương 94 giải quyết hỗn loạn",
+      "file": "chapter-94.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-94-giai-quyet-hon-loan-at8ThcQsRAPg7fVQ",
+      "createdAt": "2026-10-27T01:17:06.402Z",
+      "updatedAt": "2026-10-27T01:17:06.402Z"
+    },
+    {
+      "number": 95,
+      "title": "Chương 95 Dược Vương Cốc tiêu nhã vận",
+      "file": "chapter-95.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-95-duoc-vuong-coc-tieu-nha-van-at8ThcQsRAPg7fVR",
+      "createdAt": "2026-10-27T01:17:46.732Z",
+      "updatedAt": "2026-10-27T01:17:46.732Z"
+    },
+    {
+      "number": 96,
+      "title": "Chương 96 huyết đồ",
+      "file": "chapter-96.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-96-huyet-do-at8ThcQsRAPg7fVS",
+      "createdAt": "2026-10-27T01:18:23.217Z",
+      "updatedAt": "2026-10-27T01:18:23.217Z"
+    },
+    {
+      "number": 97,
+      "title": "Chương 97 lưu kim giúp huyết án",
+      "file": "chapter-97.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-97-luu-kim-giup-huyet-an-at8ThcQsRAPg7fVT",
+      "createdAt": "2026-10-27T01:18:25.466Z",
+      "updatedAt": "2026-10-27T01:18:25.466Z"
+    },
+    {
+      "number": 98,
+      "title": "Chương 98 trương đạt chi tử",
+      "file": "chapter-98.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-98-truong-dat-chi-tu-at8ThcQsRAPg7fVU",
+      "createdAt": "2026-10-27T01:18:29.671Z",
+      "updatedAt": "2026-10-27T01:18:29.671Z"
+    },
+    {
+      "number": 99,
+      "title": "Chương 99 ra tay",
+      "file": "chapter-99.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-99-ra-tay-at8ThcQsRAPg7fVV",
+      "createdAt": "2026-10-27T01:18:45.953Z",
+      "updatedAt": "2026-10-27T01:18:45.953Z"
+    },
+    {
+      "number": 100,
+      "title": "Chương 100 phía sau màn độc thủ thân phận bại lộ",
+      "file": "chapter-100.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-100-phia-sau-man-doc-thu-than-pha-at8ThcQsRAPg7fVW",
+      "createdAt": "2026-10-27T01:18:47.277Z",
+      "updatedAt": "2026-10-27T01:18:47.277Z"
+    },
+    {
+      "number": 101,
+      "title": "Chương 101 thành ma",
+      "file": "chapter-101.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-101-thanh-ma-at8ThcQsRAPg7fVX",
+      "createdAt": "2026-10-27T01:19:23.590Z",
+      "updatedAt": "2026-10-27T01:19:23.590Z"
+    },
+    {
+      "number": 102,
+      "title": "Chương 102 cấp yêu ma",
+      "file": "chapter-102.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-102-cap-yeu-ma-at8ThcQsRAPg7fVY",
+      "createdAt": "2026-10-27T01:19:25.967Z",
+      "updatedAt": "2026-10-27T01:19:25.967Z"
+    },
+    {
+      "number": 103,
+      "title": "Chương 103 bi tráng, Trấn Ma Tư —— vĩnh không lùi",
+      "file": "chapter-103.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-103-bi-trang-tran-ma-tu-vinh-khon-at8ThcQsRAPg7fVZ",
+      "createdAt": "2026-10-27T01:19:28.312Z",
+      "updatedAt": "2026-10-27T01:19:28.312Z"
+    },
+    {
+      "number": 104,
+      "title": "Chương 104 Ngô dung chết",
+      "file": "chapter-104.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-104-ngo-dung-chet-at8ThcQsRAPg7fVa",
+      "createdAt": "2026-10-27T01:19:49.444Z",
+      "updatedAt": "2026-10-27T01:19:49.444Z"
+    },
+    {
+      "number": 105,
+      "title": "Chương 105 phát tài",
+      "file": "chapter-105.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-105-phat-tai-at8ThcQsRAPg7fVb",
+      "createdAt": "2026-10-27T01:23:53.055Z",
+      "updatedAt": "2026-10-27T01:23:53.055Z"
+    },
+    {
+      "number": 106,
+      "title": "Chương 106 chợ đen",
+      "file": "chapter-106.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-106-cho-den-at8ThcQsRAPg7fVc",
+      "createdAt": "2026-10-27T01:24:19.468Z",
+      "updatedAt": "2026-10-27T01:24:19.468Z"
+    },
+    {
+      "number": 107,
+      "title": "Chương 107 mà ảnh phường",
+      "file": "chapter-107.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-107-ma-anh-phuong-at8ThcQsRAPg7fVd",
+      "createdAt": "2026-10-27T01:24:22.022Z",
+      "updatedAt": "2026-10-27T01:24:22.022Z"
+    },
+    {
+      "number": 108,
+      "title": "Chương 108 tân tư đầu",
+      "file": "chapter-108.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-108-tan-tu-dau-at8ThcQsRAPg7fVe",
+      "createdAt": "2026-10-27T01:24:25.809Z",
+      "updatedAt": "2026-10-27T01:24:25.809Z"
+    },
+    {
+      "number": 109,
+      "title": "Chương 109 Lý Thiên Phong trở về",
+      "file": "chapter-109.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-109-ly-thien-phong-tro-ve-at8ThcQsRAPg7fVf",
+      "createdAt": "2026-10-27T01:24:27.362Z",
+      "updatedAt": "2026-10-27T01:24:27.362Z"
+    },
+    {
+      "number": 110,
+      "title": "Chương 110 nhị giai linh đan",
+      "file": "chapter-110.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-110-nhi-giai-linh-dan-at8ThcQsRAPg7fVg",
+      "createdAt": "2026-10-27T01:25:34.637Z",
+      "updatedAt": "2026-10-27T01:25:34.637Z"
+    },
+    {
+      "number": 111,
+      "title": "Chương 111 ba năm chi ước",
+      "file": "chapter-111.txt",
+      "sourceUrl": "https://wikicv.org/truyen/khai-cuc-luu-dan-ta-the-chat-moi-ngay-ta/chuong-111-ba-nam-chi-uoc-at8ThcQsRAPg7fVh",
+      "createdAt": "2026-10-27T01:29:50.216Z",
+      "updatedAt": "2026-10-27T01:29:50.216Z"
+    }
+  ],
+  "rating": 3
+}

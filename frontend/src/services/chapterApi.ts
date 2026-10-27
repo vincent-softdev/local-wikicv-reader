@@ -1,7 +1,22 @@
-import type { Chapter } from '../types';
+import type { Chapter, HistoryItem, LocalChapter, LocalStoryMeta } from '../types';
 export async function fetchChapter(url: string): Promise<Chapter> {
   const response = await fetch(`/api/chapter?url=${encodeURIComponent(url)}`);
   const data = await response.json() as Chapter & { error?: string };
   if (!response.ok) throw new Error(data.error || 'Không thể tải chương truyện.');
   return data;
 }
+export async function fetchNovel(url: string) { const response = await fetch(`/api/novel?url=${encodeURIComponent(url)}`); const data = await response.json() as { error?: string; chapters: { title: string; url: string }[]; title: string; sourceUrl: string }; if (!response.ok) throw new Error(data.error || 'Không thể tải mục lục truyện.'); return data; }
+export async function fetchReadingHistory(): Promise<HistoryItem[]> { const response = await fetch('/api/history'); if (!response.ok) return []; const items = await response.json() as Array<HistoryItem & { chapterUrl?: string }>; const seen = new Set<string>(); return items.map(item => ({ ...item, url: item.url || item.chapterUrl || '' })).filter(item => { const key = item.novelUrl || item.novelTitle; if (seen.has(key)) return false; seen.add(key); return true; }); }
+export async function saveReadingHistory(item: HistoryItem): Promise<void> { await fetch('/api/history', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ novelTitle: item.novelTitle, novelUrl: item.novelUrl, chapterTitle: item.chapterTitle, chapterUrl: item.url, lastParagraph: item.lastParagraph, totalParagraphs: item.totalParagraphs, updatedAt: item.updatedAt }) }); }
+async function localRequest<T>(path: string, options?: RequestInit): Promise<T> { const response = await fetch(`/api${path}`, options); const data = await response.json() as T & { error?: string }; if (!response.ok) throw new Error(data.error || 'Không thể thao tác với truyện local.'); return data; }
+export function fetchLocalStories() { return localRequest<LocalStoryMeta[]>('/stories'); }
+export function fetchLocalStory(slug: string) { return localRequest<LocalStoryMeta>(`/stories/${encodeURIComponent(slug)}`); }
+export function fetchLocalChapter(slug: string, number: number) { return localRequest<LocalChapter>(`/stories/${encodeURIComponent(slug)}/chapters/${number}`); }
+export function fetchCachedChapter(sourceUrl: string) { return localRequest<LocalChapter>(`/stories/cached?url=${encodeURIComponent(sourceUrl)}`); }
+export function createLocalStory(title: string, chapterTitle: string, content: string) { return localRequest<LocalStoryMeta>('/stories', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ title, chapterTitle, content }) }); }
+export function addLocalChapter(slug: string, chapterTitle: string, content: string) { return localRequest<LocalStoryMeta>(`/stories/${encodeURIComponent(slug)}/chapters`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chapterTitle, content }) }); }
+export function editLocalChapter(slug: string, number: number, chapterTitle: string, content: string) { return localRequest<LocalStoryMeta>(`/stories/${encodeURIComponent(slug)}/chapters/${number}`, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chapterTitle, content }) }); }
+export function cacheWikiCvChapter(item: { novelTitle: string; novelUrl?: string; chapterTitle: string; chapterUrl: string; content: string }) { return localRequest<{ saved: boolean; story: LocalStoryMeta }>('/stories/cache', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(item) }); }
+export function rateLocalStory(slug: string, rating: number) { return localRequest<LocalStoryMeta>(`/stories/${encodeURIComponent(slug)}/rating`, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ rating }) }); }
+export function updateLocalStoryState(slug: string, state: { rating?: number; unread?: boolean }) { return localRequest<LocalStoryMeta>(`/stories/${encodeURIComponent(slug)}/state`, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(state) }); }
+export function markLocalChapterRead(slug: string, number: number, read = true) { return localRequest<LocalStoryMeta>(`/stories/${encodeURIComponent(slug)}/chapters/${number}/read`, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ read }) }); }

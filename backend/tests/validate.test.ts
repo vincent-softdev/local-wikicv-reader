@@ -4,9 +4,14 @@ import { isAllowedWikiCvUrl } from '../src/utils/validateWikiCvUrl.js';
 describe('WikiCV URL validation', () => {
   it('allows only HTTPS chapter URLs on WikiCV', () => {
     expect(isAllowedWikiCvUrl('https://wikicv.org/truyen/a/chuong-1-test')).toBe(true);
+    expect(isAllowedWikiCvUrl('https://wikicv.org/truyen/do-thi-huyen-huyen-than-cap-thuan-thu-su/phan-94-XX4%7Ea8QsRASu7dDh')).toBe(true);
     expect(isAllowedWikiCvUrl('https://www.wikicv.org/truyen/a/chuong-1-test')).toBe(true);
     expect(isAllowedWikiCvUrl('https://google.com/truyen/a/chuong-1-test')).toBe(false);
     expect(isAllowedWikiCvUrl('http://wikicv.org/truyen/a/chuong-1-test')).toBe(false);
     expect(isAllowedWikiCvUrl('https://wikicv.org/')).toBe(false);
+  });
+
+  it('recognizes phan chapter URLs as chapters', () => {
+    expect(isAllowedWikiCvUrl('https://wikicv.org/truyen/a/phan-94-code')).toBe(true);
   });
 });
