@@ -41,7 +41,7 @@ function findChapterLink($: cheerio.CheerioAPI, direction: 'prev' | 'next', sour
   for (const candidate of candidates) {
     try {
       const url = new URL(candidate.href!, source);
-      if (url.hostname.endsWith('wikicv.org') && /\/truyen\/[^/]+\/chuong(?:-|\/)/i.test(url.pathname) && url.toString() !== source.toString()) return url.toString();
+      if (url.hostname.endsWith('wikicv.org') && /\/truyen\/[^/]+\/(?:chuong|phan)(?:-|\/)/i.test(url.pathname) && url.toString() !== source.toString()) return url.toString();
     } catch { /* Try the next candidate. */ }
   }
   return undefined;
@@ -57,7 +57,7 @@ function findNovelLink($: cheerio.CheerioAPI, source: URL): string | undefined {
   }
   const candidates = $('a[href]').toArray().map(element => ({ text: clean($(element).text()) || clean($(element).attr('title') ?? '') || clean($(element).attr('aria-label') ?? ''), href: $(element).attr('href') }));
   for (const candidate of candidates) {
-    if (!candidate.href || (!/mục lục|danh sách chương|trang truyện|book|novel|truyện/i.test(candidate.text) && /\/chuong(?:-|\/)/i.test(candidate.href))) continue;
+    if (!candidate.href || (!/mục lục|danh sách chương|trang truyện|book|novel|truyện/i.test(candidate.text) && /\/(?:chuong|phan)(?:-|\/)/i.test(candidate.href))) continue;
     try {
       const url = new URL(candidate.href, source);
       if (url.origin === source.origin && /^\/truyen\/[^/]+\/?$/i.test(url.pathname)) return url.toString();
@@ -69,17 +69,17 @@ function findNovelLink($: cheerio.CheerioAPI, source: URL): string | undefined {
 function findChapterLinks($: cheerio.CheerioAPI, source: URL, currentTitle = ''): ChapterLink[] {
   const links: ChapterLink[] = [];
   const seen = new Set<string>();
-  const chapterPage = /\/chuong(?:-|\/)/i.test(source.pathname);
+  const chapterPage = /\/(?:chuong|phan)(?:-|\/)/i.test(source.pathname);
   const novelSlug = source.pathname.split('/').filter(Boolean)[1];
   const novelPrefix = chapterPage ? `${source.origin}/truyen/${novelSlug}/` : '';
   const addLink = (href: string | undefined, rawTitle?: string) => {
     if (!href) return;
     try {
       const url = new URL(href, source);
-      if (url.origin !== source.origin || (novelPrefix && !url.pathname.startsWith(novelPrefix)) || !/\/truyen\/[^/]+\/chuong(?:-|\/)/i.test(url.pathname)) return;
+      if (url.origin !== source.origin || (novelPrefix && !url.pathname.startsWith(novelPrefix)) || !/\/truyen\/[^/]+\/(?:chuong|phan)(?:-|\/)/i.test(url.pathname)) return;
       const absoluteUrl = url.toString();
       if (seen.has(absoluteUrl)) return;
-      const title = clean(rawTitle ?? '') || clean(decodeURIComponent(url.pathname.split('/').pop() ?? '').replace(/^chuong[-_]?/i, 'Chương '));
+      const title = clean(rawTitle ?? '') || clean(decodeURIComponent(url.pathname.split('/').pop() ?? '').replace(/^(?:chuong|phan)[-_]?/i, 'Chương '));
       if (/chương (trước|sau)|previous|next|prev/i.test(title)) return;
       seen.add(absoluteUrl);
       links.push({ title, url: absoluteUrl });
@@ -91,7 +91,7 @@ function findChapterLinks($: cheerio.CheerioAPI, source: URL, currentTitle = '')
     const title = clean($(element).text()) || clean($(element).attr('title') ?? '') || clean($(element).attr('aria-label') ?? '');
     addLink(href, title);
   });
-  const urlPattern = /(?:https?:\/\/wikicv\.org)?\/truyen\/[^"'\\\s]+\/chuong(?:-|\/)[^"'\\\s<]+/gi;
+  const urlPattern = /(?:https?:\/\/wikicv\.org)?\/truyen\/[^"'\\\s]+\/(?:chuong|phan)(?:-|\/)[^"'\\\s<]+/gi;
   for (const match of $.html().matchAll(urlPattern)) addLink(match[0]);
   const currentUrl = source.toString();
   if (currentTitle && !seen.has(currentUrl)) links.push({ title: currentTitle, url: currentUrl });

@@ -1,0 +1,29 @@
+{
+  "slug": "sang-tao-cthulhu-tro-choi-the-gioi",
+  "title": "Sáng tạo Cthulhu trò chơi thế giới",
+  "sourceUrl": "https://wikicv.org/truyen/sang-tao-cthulhu-tro-choi-the-gioi-YPmMyzzLcnrlzaMe",
+  "createdAt": "2026-10-27T08:24:50.224Z",
+  "updatedAt": "2026-10-27T10:47:08.608Z",
+  "unread": false,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Phần 1",
+      "file": "chapter-1.txt",
+      "sourceUrl": "https://wikicv.org/truyen/sang-tao-cthulhu-tro-choi-the-gioi/phan-1-YPmM58QsRBpaqDTB",
+      "createdAt": "2026-10-27T08:24:50.224Z",
+      "updatedAt": "2026-10-27T10:47:08.608Z",
+      "read": true
+    },
+    {
+      "number": 2,
+      "title": "Phần 2",
+      "file": "chapter-2.txt",
+      "sourceUrl": "https://wikicv.org/truyen/sang-tao-cthulhu-tro-choi-the-gioi/phan-2-YPmM58QsRBpaqDTC",
+      "createdAt": "2026-10-27T10:07:19.851Z",
+      "updatedAt": "2026-10-27T10:07:19.996Z",
+      "read": true
+    }
+  ],
+  "lastReadChapter": 2
+}

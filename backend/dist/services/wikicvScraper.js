@@ -40,7 +40,7 @@ function findChapterLink($, direction, source) {
     for (const candidate of candidates) {
         try {
             const url = new URL(candidate.href, source);
-            if (url.hostname.endsWith('wikicv.org') && /\/truyen\/[^/]+\/chuong(?:-|\/)/i.test(url.pathname) && url.toString() !== source.toString())
+            if (url.hostname.endsWith('wikicv.org') && /\/truyen\/[^/]+\/(?:chuong|phan)(?:-|\/)/i.test(url.pathname) && url.toString() !== source.toString())
                 return url.toString();
         }
         catch { /* Try the next candidate. */ }
@@ -59,7 +59,7 @@ function findNovelLink($, source) {
     }
     const candidates = $('a[href]').toArray().map(element => ({ text: clean($(element).text()) || clean($(element).attr('title') ?? '') || clean($(element).attr('aria-label') ?? ''), href: $(element).attr('href') }));
     for (const candidate of candidates) {
-        if (!candidate.href || (!/mục lục|danh sách chương|trang truyện|book|novel|truyện/i.test(candidate.text) && /\/chuong(?:-|\/)/i.test(candidate.href)))
+        if (!candidate.href || (!/mục lục|danh sách chương|trang truyện|book|novel|truyện/i.test(candidate.text) && /\/(?:chuong|phan)(?:-|\/)/i.test(candidate.href)))
             continue;
         try {
             const url = new URL(candidate.href, source);
@@ -73,7 +73,7 @@ function findNovelLink($, source) {
 function findChapterLinks($, source, currentTitle = '') {
     const links = [];
     const seen = new Set();
-    const chapterPage = /\/chuong(?:-|\/)/i.test(source.pathname);
+    const chapterPage = /\/(?:chuong|phan)(?:-|\/)/i.test(source.pathname);
     const novelSlug = source.pathname.split('/').filter(Boolean)[1];
     const novelPrefix = chapterPage ? `${source.origin}/truyen/${novelSlug}/` : '';
     const addLink = (href, rawTitle) => {
@@ -81,12 +81,12 @@ function findChapterLinks($, source, currentTitle = '') {
             return;
         try {
             const url = new URL(href, source);
-            if (url.origin !== source.origin || (novelPrefix && !url.pathname.startsWith(novelPrefix)) || !/\/truyen\/[^/]+\/chuong(?:-|\/)/i.test(url.pathname))
+            if (url.origin !== source.origin || (novelPrefix && !url.pathname.startsWith(novelPrefix)) || !/\/truyen\/[^/]+\/(?:chuong|phan)(?:-|\/)/i.test(url.pathname))
                 return;
             const absoluteUrl = url.toString();
             if (seen.has(absoluteUrl))
                 return;
-            const title = clean(rawTitle ?? '') || clean(decodeURIComponent(url.pathname.split('/').pop() ?? '').replace(/^chuong[-_]?/i, 'Chương '));
+            const title = clean(rawTitle ?? '') || clean(decodeURIComponent(url.pathname.split('/').pop() ?? '').replace(/^(?:chuong|phan)[-_]?/i, 'Chương '));
             if (/chương (trước|sau)|previous|next|prev/i.test(title))
                 return;
             seen.add(absoluteUrl);
@@ -100,7 +100,7 @@ function findChapterLinks($, source, currentTitle = '') {
         const title = clean($(element).text()) || clean($(element).attr('title') ?? '') || clean($(element).attr('aria-label') ?? '');
         addLink(href, title);
     });
-    const urlPattern = /(?:https?:\/\/wikicv\.org)?\/truyen\/[^"'\\\s]+\/chuong(?:-|\/)[^"'\\\s<]+/gi;
+    const urlPattern = /(?:https?:\/\/wikicv\.org)?\/truyen\/[^"'\\\s]+\/(?:chuong|phan)(?:-|\/)[^"'\\\s<]+/gi;
     for (const match of $.html().matchAll(urlPattern))
         addLink(match[0]);
     const currentUrl = source.toString();

@@ -2,7 +2,7 @@
   "slug": "tu-the-gioi-suong-mu-bat-dau-cuu-vot-van-gioi",
   "title": "Từ Thế Giới Sương Mù Bắt Đầu Cứu Vớt Vạn Giới",
   "createdAt": "2026-10-26T12:56:06.528Z",
-  "updatedAt": "2026-10-26T12:57:32.016Z",
+  "updatedAt": "2026-10-27T10:17:30.754Z",
   "chapters": [
     {
       "number": 1,
@@ -23,7 +23,10 @@
       "title": "Chương 5: Quy luật đầu tiên",
       "file": "chapter-3.txt",
       "createdAt": "2026-10-26T12:57:32.016Z",
-      "updatedAt": "2026-10-26T12:57:32.016Z"
+      "updatedAt": "2026-10-27T10:17:30.754Z",
+      "read": true
     }
-  ]
+  ],
+  "unread": false,
+  "lastReadChapter": 3
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "ta-co-the-ma-sua-hac-khoa-ky",
+  "title": "Ta có thể ma sửa hắc khoa kỹ",
+  "sourceUrl": "https://wikicv.org/truyen/ta-co-the-ma-sua-hac-khoa-ky-XvuvEVS4CAWKgOMt",
+  "createdAt": "2026-10-27T14:03:43.779Z",
+  "updatedAt": "2026-10-27T14:12:14.005Z",
+  "unread": false,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chương 1 ta đem trọng sinh giả ngồi đã chết?",
+      "file": "chapter-1.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-co-the-ma-sua-hac-khoa-ky/chuong-1-ta-dem-trong-sinh-gia-ngoi-da-c-XvuxycQsRATSYqaZ",
+      "createdAt": "2026-10-27T14:03:43.779Z",
+      "updatedAt": "2026-10-27T14:04:19.744Z",
+      "read": true
+    },
+    {
+      "number": 2,
+      "title": "Chương 2 đấu giá hội",
+      "file": "chapter-2.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-co-the-ma-sua-hac-khoa-ky/chuong-2-dau-gia-hoi-XvuxycQsRATSYqaa",
+      "createdAt": "2026-10-27T14:09:58.711Z",
+      "updatedAt": "2026-10-27T14:09:58.879Z",
+      "read": true
+    },
+    {
+      "number": 3,
+      "title": "Chương 3 ma sửa dịch cốt đao",
+      "file": "chapter-3.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-co-the-ma-sua-hac-khoa-ky/chuong-3-ma-sua-dich-cot-dao-Xv0H8MQsRATRYruS",
+      "createdAt": "2026-10-27T14:10:01.466Z",
+      "updatedAt": "2026-10-27T14:10:01.575Z",
+      "read": true
+    },
+    {
+      "number": 4,
+      "title": "Chương 4 đại tai biến!",
+      "file": "chapter-4.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-co-the-ma-sua-hac-khoa-ky/chuong-4-dai-tai-bien-Xv5adMQsRATSY2p9",
+      "createdAt": "2026-10-27T14:12:13.885Z",
+      "updatedAt": "2026-10-27T14:12:14.005Z",
+      "read": true
+    }
+  ],
+  "lastReadChapter": 4
+}

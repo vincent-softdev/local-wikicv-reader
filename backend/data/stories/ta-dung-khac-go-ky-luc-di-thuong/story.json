@@ -3,7 +3,7 @@
   "title": "Ta dùng khắc gỗ ký lục dị thường",
   "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong-Xv2rYVS4CBLZ%7Ertp",
   "createdAt": "2026-10-27T06:42:22.461Z",
-  "updatedAt": "2026-10-27T06:42:22.461Z",
+  "updatedAt": "2026-10-27T13:38:19.162Z",
   "chapters": [
     {
       "number": 1,
@@ -11,7 +11,505 @@
       "file": "chapter-1.txt",
       "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-1-xa-la-phu-than-Xv2rvcQsRATSY0TS",
       "createdAt": "2026-10-27T06:42:22.461Z",
-      "updatedAt": "2026-10-27T06:42:22.461Z"
+      "updatedAt": "2026-10-27T10:20:08.478Z",
+      "read": true
+    },
+    {
+      "number": 2,
+      "title": "Chương 2 hai cái giống nhau như đúc người",
+      "file": "chapter-2.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-2-hai-cai-giong-nhau-nhu-duc-nguo-Xv2rvcQsRATSY0TT",
+      "createdAt": "2026-10-27T10:20:09.887Z",
+      "updatedAt": "2026-10-27T10:20:09.981Z",
+      "read": true
+    },
+    {
+      "number": 3,
+      "title": "Chương 3 ai thiệt ai giả?",
+      "file": "chapter-3.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-3-ai-thiet-ai-gia-Xv2rvcQsRATSY0TU",
+      "createdAt": "2026-10-27T10:20:12.188Z",
+      "updatedAt": "2026-10-27T10:20:12.296Z",
+      "read": true
+    },
+    {
+      "number": 4,
+      "title": "Chương 4 khắc gỗ",
+      "file": "chapter-4.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-4-khac-go-Xv5ZQcQsRATSY2l9",
+      "createdAt": "2026-10-27T10:20:13.618Z",
+      "updatedAt": "2026-10-27T10:20:13.710Z",
+      "read": true
+    },
+    {
+      "number": 5,
+      "title": "Chương 5 tinh thần kháng thể",
+      "file": "chapter-5.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-5-tinh-than-khang-the-Xv%7EricQsRATRY30H",
+      "createdAt": "2026-10-27T10:20:15.313Z",
+      "updatedAt": "2026-10-27T10:20:15.408Z",
+      "read": true
+    },
+    {
+      "number": 6,
+      "title": "Chương 6 đối đặc tính phỏng đoán",
+      "file": "chapter-6.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-6-doi-dac-tinh-phong-doan-XwEG28QsRATRY8X9",
+      "createdAt": "2026-10-27T10:30:11.076Z",
+      "updatedAt": "2026-10-27T10:30:11.194Z",
+      "read": true
+    },
+    {
+      "number": 7,
+      "title": "Chương 7 tăng lên thân thể cường độ",
+      "file": "chapter-7.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-7-tang-len-than-the-cuong-do-XwEG28QsRATRY8X%7E",
+      "createdAt": "2026-10-27T10:33:10.892Z",
+      "updatedAt": "2026-10-27T10:33:11.000Z",
+      "read": true
+    },
+    {
+      "number": 8,
+      "title": "Chương 8 đột phát sự kiện",
+      "file": "chapter-8.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-8-dot-phat-su-kien-XwLcK8QsRAVkS8Gx",
+      "createdAt": "2026-10-27T10:35:36.414Z",
+      "updatedAt": "2026-10-27T10:35:36.530Z",
+      "read": true
+    },
+    {
+      "number": 9,
+      "title": "Chương 9 án kiện điều tra",
+      "file": "chapter-9.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-9-an-kien-dieu-tra-XwLcK8QsRAVkS8Gy",
+      "createdAt": "2026-10-27T10:39:47.284Z",
+      "updatedAt": "2026-10-27T10:39:47.383Z",
+      "read": true
+    },
+    {
+      "number": 10,
+      "title": "Chương 10 đêm kinh",
+      "file": "chapter-10.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-10-dem-kinh-XwPg58QsRAVkTDVE",
+      "createdAt": "2026-10-27T10:42:19.448Z",
+      "updatedAt": "2026-10-27T10:42:19.572Z",
+      "read": true
+    },
+    {
+      "number": 11,
+      "title": "Chương 11 Lâm Uyển Như",
+      "file": "chapter-11.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-11-lam-uyen-nhu-XwTyNMQsRAVkTHA9",
+      "createdAt": "2026-10-27T10:44:52.434Z",
+      "updatedAt": "2026-10-27T10:44:52.583Z",
+      "read": true
+    },
+    {
+      "number": 12,
+      "title": "Chương 12 tròng mắt ( một )",
+      "file": "chapter-12.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-12-trong-mat-mot-XwTyNMQsRAVkTHA%7E",
+      "createdAt": "2026-10-27T10:46:47.532Z",
+      "updatedAt": "2026-10-27T12:53:22.606Z",
+      "read": true
+    },
+    {
+      "number": 13,
+      "title": "Chương 13 tròng mắt ( nhị )",
+      "file": "chapter-13.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-13-trong-mat-nhi-XwZEm8QsRAVkTLXG",
+      "createdAt": "2026-10-27T12:53:24.932Z",
+      "updatedAt": "2026-10-27T12:53:25.055Z",
+      "read": true
+    },
+    {
+      "number": 14,
+      "title": "Chương 14 tròng mắt ( tam )",
+      "file": "chapter-14.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-14-trong-mat-tam-XwZEm8QsRAVkTLXH",
+      "createdAt": "2026-10-27T12:53:25.861Z",
+      "updatedAt": "2026-10-27T12:53:25.955Z",
+      "read": true
+    },
+    {
+      "number": 15,
+      "title": "Chương 15 tròng mắt ( bốn )",
+      "file": "chapter-15.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-15-trong-mat-bon-XweWlcQsRAVkTR4L",
+      "createdAt": "2026-10-27T12:53:27.071Z",
+      "updatedAt": "2026-10-27T12:53:27.169Z",
+      "read": true
+    },
+    {
+      "number": 16,
+      "title": "Chương 16 tròng mắt ( năm )",
+      "file": "chapter-16.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-16-trong-mat-nam-XweWlcQsRAVkTR4M",
+      "createdAt": "2026-10-27T12:53:27.890Z",
+      "updatedAt": "2026-10-27T12:53:27.973Z",
+      "read": true
+    },
+    {
+      "number": 17,
+      "title": "Chương 17 tròng mắt ( sáu )",
+      "file": "chapter-17.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-17-trong-mat-sau-XwjoUMQsRC200Wxp",
+      "createdAt": "2026-10-27T12:53:28.707Z",
+      "updatedAt": "2026-10-27T12:53:28.802Z",
+      "read": true
+    },
+    {
+      "number": 18,
+      "title": "Chương 18 tròng mắt ( chung )",
+      "file": "chapter-18.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-18-trong-mat-chung-XwjoUMQsRC200Wxq",
+      "createdAt": "2026-10-27T12:53:29.629Z",
+      "updatedAt": "2026-10-27T12:53:29.702Z",
+      "read": true
+    },
+    {
+      "number": 19,
+      "title": "Chương 19 ngươi muốn liêu cái này ta nhưng không buồn ngủ a!",
+      "file": "chapter-19.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-19-nguoi-muon-lieu-cai-nay-ta-nhu-Xwo_K8QsRC2z0d1V",
+      "createdAt": "2026-10-27T12:53:30.655Z",
+      "updatedAt": "2026-10-27T12:53:30.738Z",
+      "read": true
+    },
+    {
+      "number": 20,
+      "title": "Chương 20 cuối cùng một đoạn video",
+      "file": "chapter-20.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-20-cuoi-cung-mot-doan-video-Xwo_K8QsRC2z0d1W",
+      "createdAt": "2026-10-27T12:53:33.533Z",
+      "updatedAt": "2026-10-27T12:53:33.632Z",
+      "read": true
+    },
+    {
+      "number": 21,
+      "title": "Chương 21 chế định dị thường đánh số",
+      "file": "chapter-21.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-21-che-dinh-di-thuong-danh-so-XwuL88QsRC2z0jIn",
+      "createdAt": "2026-10-27T12:53:35.160Z",
+      "updatedAt": "2026-10-27T12:53:35.248Z",
+      "read": true
+    },
+    {
+      "number": 22,
+      "title": "Chương 22 điêu khắc kỹ xảo cường hóa",
+      "file": "chapter-22.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-22-dieu-khac-ky-xao-cuong-hoa-XwuL88QsRC2z0jIo",
+      "createdAt": "2026-10-27T12:53:36.244Z",
+      "updatedAt": "2026-10-27T12:53:36.356Z",
+      "read": true
+    },
+    {
+      "number": 23,
+      "title": "Chương 23 lâm Phỉ Phỉ",
+      "file": "chapter-23.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-23-lam-phi-phi-XwzpacQsREUfCRQp",
+      "createdAt": "2026-10-27T12:53:36.901Z",
+      "updatedAt": "2026-10-27T12:53:36.989Z",
+      "read": true
+    },
+    {
+      "number": 24,
+      "title": "Chương 24 nan đề",
+      "file": "chapter-24.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-24-nan-de-XwzpacQsREUfCRQq",
+      "createdAt": "2026-10-27T12:53:38.657Z",
+      "updatedAt": "2026-10-27T12:53:38.763Z",
+      "read": true
+    },
+    {
+      "number": 25,
+      "title": "Chương 25 rơi xuống da đầu",
+      "file": "chapter-25.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-25-roi-xuong-da-dau-Xw1B08QsREUfCTMn",
+      "createdAt": "2026-10-27T12:53:55.912Z",
+      "updatedAt": "2026-10-27T12:53:56.011Z",
+      "read": true
+    },
+    {
+      "number": 26,
+      "title": "Chương 26 chỉ có chính mình có thể thấy",
+      "file": "chapter-26.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-26-chi-co-chinh-minh-co-the-thay-Xw4vlMQsREUgCbbW",
+      "createdAt": "2026-10-27T12:53:56.663Z",
+      "updatedAt": "2026-10-27T12:53:56.750Z",
+      "read": true
+    },
+    {
+      "number": 27,
+      "title": "Chương 27 chưa bao giờ rời đi quá",
+      "file": "chapter-27.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-27-chua-bao-gio-roi-di-qua-Xw%7ECgcQsRFSd1qBQ",
+      "createdAt": "2026-10-27T12:53:58.518Z",
+      "updatedAt": "2026-10-27T12:53:58.631Z",
+      "read": true
+    },
+    {
+      "number": 28,
+      "title": "Chương 28 cổ quái Tống Tiểu Vũ",
+      "file": "chapter-28.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-28-co-quai-tong-mua-nho-Xw%7ECgcQsRFSd1qBR",
+      "createdAt": "2026-10-27T12:53:59.636Z",
+      "updatedAt": "2026-10-27T12:53:59.723Z",
+      "read": true
+    },
+    {
+      "number": 29,
+      "title": "Chương 29 không biết dị thường",
+      "file": "chapter-29.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-29-khong-biet-di-thuong-XxDTv8QsRF8TAUBC",
+      "createdAt": "2026-10-27T12:54:00.761Z",
+      "updatedAt": "2026-10-27T12:54:00.856Z",
+      "read": true
+    },
+    {
+      "number": 30,
+      "title": "Chương 30 kinh động",
+      "file": "chapter-30.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-30-kinh-dong-XxDTv8QsRF8TAUBD",
+      "createdAt": "2026-10-27T12:54:01.980Z",
+      "updatedAt": "2026-10-27T12:54:02.098Z",
+      "read": true
+    },
+    {
+      "number": 31,
+      "title": "Chương 31 trên cổ nếp nhăn",
+      "file": "chapter-31.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-31-tren-co-nep-nhan-XxInI8QsRGfgmtUv",
+      "createdAt": "2026-10-27T12:54:03.118Z",
+      "updatedAt": "2026-10-27T12:54:03.231Z",
+      "read": true
+    },
+    {
+      "number": 32,
+      "title": "Chương 32 đặc tính phỏng đoán",
+      "file": "chapter-32.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-32-dac-tinh-phong-doan-XxInI8QsRGfgmtUw",
+      "createdAt": "2026-10-27T12:54:04.153Z",
+      "updatedAt": "2026-10-27T12:54:04.269Z",
+      "read": true
+    },
+    {
+      "number": 33,
+      "title": "Chương 33 biến mất Tống gia",
+      "file": "chapter-33.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-33-bien-mat-tong-gia-XxKxocQsRGfhmwGY",
+      "createdAt": "2026-10-27T12:54:06.246Z",
+      "updatedAt": "2026-10-27T12:54:06.347Z",
+      "read": true
+    },
+    {
+      "number": 34,
+      "title": "Chương 34 mặt ( một )",
+      "file": "chapter-34.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-34-mat-mot-XxN3IMQsRHB5P_Kc",
+      "createdAt": "2026-10-27T12:54:06.905Z",
+      "updatedAt": "2026-10-27T12:54:06.994Z",
+      "read": true
+    },
+    {
+      "number": 35,
+      "title": "Chương 35 mặt ( nhị )",
+      "file": "chapter-35.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-35-mat-nhi-XxTS6cQsRHB4QF4D",
+      "createdAt": "2026-10-27T12:54:08.049Z",
+      "updatedAt": "2026-10-27T12:54:08.150Z",
+      "read": true
+    },
+    {
+      "number": 36,
+      "title": "Chương 36 mặt ( tam )",
+      "file": "chapter-36.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-36-mat-tam-XxTS6cQsRHB4QF4E",
+      "createdAt": "2026-10-27T12:54:08.858Z",
+      "updatedAt": "2026-10-27T12:54:08.940Z",
+      "read": true
+    },
+    {
+      "number": 37,
+      "title": "Chương 37 mặt ( bốn )",
+      "file": "chapter-37.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-37-mat-bon-XxYsv8QsRAFLTDJv",
+      "createdAt": "2026-10-27T12:54:09.773Z",
+      "updatedAt": "2026-10-27T12:54:09.870Z",
+      "read": true
+    },
+    {
+      "number": 38,
+      "title": "Chương 38 mặt ( năm )",
+      "file": "chapter-38.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-38-mat-nam-XxYsv8QsRAFLTDJw",
+      "createdAt": "2026-10-27T12:54:10.799Z",
+      "updatedAt": "2026-10-27T12:54:10.895Z",
+      "read": true
+    },
+    {
+      "number": 39,
+      "title": "Chương 39 mặt ( sáu )",
+      "file": "chapter-39.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-39-mat-sau-XxaJhcQsRAFLTFHJ",
+      "createdAt": "2026-10-27T12:54:11.512Z",
+      "updatedAt": "2026-10-27T12:54:11.614Z",
+      "read": true
+    },
+    {
+      "number": 40,
+      "title": "Chương 40 mặt ( chung )",
+      "file": "chapter-40.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-40-mat-chung-Xxe4b8QsRAFLTKIO",
+      "createdAt": "2026-10-27T12:54:12.437Z",
+      "updatedAt": "2026-10-27T12:54:12.543Z",
+      "read": true
+    },
+    {
+      "number": 41,
+      "title": "Chương 41 đối dị thường nhận tri",
+      "file": "chapter-41.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-41-doi-di-thuong-nhan-tri-XxoTncQsRBk3537n",
+      "createdAt": "2026-10-27T12:54:13.152Z",
+      "updatedAt": "2026-10-27T12:54:13.239Z",
+      "read": true
+    },
+    {
+      "number": 42,
+      "title": "Chương 42 hoàn thiện đặc tính",
+      "file": "chapter-42.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-42-hoan-thien-dac-tinh-XxoTncQsRBk3537o",
+      "createdAt": "2026-10-27T12:54:13.969Z",
+      "updatedAt": "2026-10-27T12:54:14.061Z",
+      "read": true
+    },
+    {
+      "number": 43,
+      "title": "Chương 43 hấp thu",
+      "file": "chapter-43.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-43-hap-thu-XxoTncQsRBk3537p",
+      "createdAt": "2026-10-27T12:54:14.789Z",
+      "updatedAt": "2026-10-27T12:54:14.880Z",
+      "read": true
+    },
+    {
+      "number": 44,
+      "title": "Chương 44 một cái khác chính mình",
+      "file": "chapter-44.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-44-mot-cai-khac-chinh-minh-XxoTncQsRBk3537q",
+      "createdAt": "2026-10-27T12:54:15.608Z",
+      "updatedAt": "2026-10-27T12:54:15.712Z",
+      "read": true
+    },
+    {
+      "number": 45,
+      "title": "Chương 45 điều tra tổ âm mưu",
+      "file": "chapter-45.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-45-dieu-tra-to-am-muu-XxqT8sQsRBk355%7E1",
+      "createdAt": "2026-10-27T12:54:16.942Z",
+      "updatedAt": "2026-10-27T12:54:17.034Z",
+      "read": true
+    },
+    {
+      "number": 46,
+      "title": "Chương 46 cái thứ hai tiềm kỹ năng",
+      "file": "chapter-46.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-46-cai-thu-hai-tiem-ky-nang-Xxt5FcQsRCMeL5FS",
+      "createdAt": "2026-10-27T12:54:17.972Z",
+      "updatedAt": "2026-10-27T12:54:18.081Z",
+      "read": true
+    },
+    {
+      "number": 47,
+      "title": "Chương 47 về nhà",
+      "file": "chapter-47.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-47-ve-nha-XxvHicQsRCMeL6jZ",
+      "createdAt": "2026-10-27T12:56:44.306Z",
+      "updatedAt": "2026-10-27T12:56:44.420Z",
+      "read": true
+    },
+    {
+      "number": 48,
+      "title": "Chương 48 đổi phòng",
+      "file": "chapter-48.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-48-doi-phong-Xxy1psQsRCsJY8C7",
+      "createdAt": "2026-10-27T13:03:27.930Z",
+      "updatedAt": "2026-10-27T13:03:28.068Z",
+      "read": true
+    },
+    {
+      "number": 49,
+      "title": "Chương 49 ngươi cũng thấy được?",
+      "file": "chapter-49.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-49-nguoi-cung-thay-duoc-Xx0tdsQsRCsKY9gk",
+      "createdAt": "2026-10-27T13:09:40.504Z",
+      "updatedAt": "2026-10-27T13:09:40.641Z",
+      "read": true
+    },
+    {
+      "number": 50,
+      "title": "Chương 50 đối diện cameras",
+      "file": "chapter-50.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-50-doi-dien-cameras-Xx4S3cQsRCsJZFvx",
+      "createdAt": "2026-10-27T13:16:03.981Z",
+      "updatedAt": "2026-10-27T13:16:04.082Z",
+      "read": true
+    },
+    {
+      "number": 51,
+      "title": "Chương 51 lầu bảy",
+      "file": "chapter-51.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-51-lau-bay-Xx95ucQsRDqyP9LP",
+      "createdAt": "2026-10-27T13:23:21.282Z",
+      "updatedAt": "2026-10-27T13:23:21.438Z",
+      "read": true
+    },
+    {
+      "number": 52,
+      "title": "Chương 52 ngẫu nhiên gặp được",
+      "file": "chapter-52.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-52-ngau-nhien-gap-duoc-Xx95ucQsRDqyP9LQ",
+      "createdAt": "2026-10-27T13:31:16.994Z",
+      "updatedAt": "2026-10-27T13:31:17.112Z",
+      "read": true
+    },
+    {
+      "number": 53,
+      "title": "Chương 53 vô lương báo phiến",
+      "file": "chapter-53.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-53-vo-luong-bao-phien-Xx_GnMQsRDqxP9dU",
+      "createdAt": "2026-10-27T13:38:10.278Z",
+      "updatedAt": "2026-10-27T13:38:10.411Z",
+      "read": true
+    },
+    {
+      "number": 54,
+      "title": "Chương 54 đặc thù vụ án",
+      "file": "chapter-54.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-54-dac-thu-vu-an-XyC_HcQsRDqxQBzx",
+      "createdAt": "2026-10-27T13:38:15.904Z",
+      "updatedAt": "2026-10-27T13:38:16.007Z",
+      "read": true
+    },
+    {
+      "number": 55,
+      "title": "Chương 55 đêm hành",
+      "file": "chapter-55.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-55-dem-hanh-XyEEaMQsRDqyQF2Z",
+      "createdAt": "2026-10-27T13:38:17.537Z",
+      "updatedAt": "2026-10-27T13:38:17.649Z",
+      "read": true
+    },
+    {
+      "number": 56,
+      "title": "Chương 56 tủ quần áo trung quỷ bí ( một )",
+      "file": "chapter-56.txt",
+      "sourceUrl": "https://wikicv.org/truyen/ta-dung-khac-go-ky-luc-di-thuong/chuong-56-tu-quan-ao-trung-quy-bi-mot-XyIPisQsRDqxQG3r",
+      "createdAt": "2026-10-27T13:38:19.066Z",
+      "updatedAt": "2026-10-27T13:38:19.162Z",
+      "read": true
     }
-  ]
+  ],
+  "unread": false,
+  "lastReadChapter": 56
 }

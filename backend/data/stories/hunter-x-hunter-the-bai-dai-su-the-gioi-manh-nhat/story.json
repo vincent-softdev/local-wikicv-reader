@@ -3,7 +3,7 @@
   "title": "Hunter x Hunter: Thẻ bài đại sư, thế giới mạnh nhất",
   "sourceUrl": "https://wikicv.org/truyen/hunter-x-hunter-the-bai-dai-su-the-gioi--arKLX1S4CE0ax__o",
   "createdAt": "2026-10-27T03:40:04.881Z",
-  "updatedAt": "2026-10-27T04:16:58.879Z",
+  "updatedAt": "2026-10-27T14:28:06.716Z",
   "chapters": [
     {
       "number": 1,
@@ -19,7 +19,10 @@
       "file": "chapter-2.txt",
       "sourceUrl": "https://wikicv.org/truyen/hunter-x-hunter-the-bai-dai-su-the-gioi-/chuong-2-niem-nang-luc-the-bai-dai-su-tu-arKLYcQsRHmjyl5c",
       "createdAt": "2026-10-27T04:16:58.879Z",
-      "updatedAt": "2026-10-27T04:16:58.879Z"
+      "updatedAt": "2026-10-27T14:28:06.716Z",
+      "read": true
     }
-  ]
+  ],
+  "unread": false,
+  "lastReadChapter": 2
 }
